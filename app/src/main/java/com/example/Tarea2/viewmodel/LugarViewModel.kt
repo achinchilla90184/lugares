@@ -1,10 +1,10 @@
-package com.example.lugares.viewmodel
+package com.example.Tarea2.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.example.lugares.data.LugarDatabase
-import com.example.lugares.model.Lugar
-import com.example.lugares.repository.LugarRepository
+import com.example.Tarea2.data.LugarDatabase
+import com.example.Tarea2.model.Lugar
+import com.example.Tarea2.repository.LugarRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

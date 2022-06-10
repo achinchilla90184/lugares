@@ -1,4 +1,4 @@
-package com.example.lugares.ui.lugar
+package com.example.Tarea2.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.lugares.databinding.FragmentLugarBinding
-import com.example.lugares.viewmodel.LugarViewModel
+import com.example.Tarea2.databinding.FragmentGalleryBinding
 
-class LugarFragment : Fragment() {
+class GalleryFragment : Fragment() {
 
-    private var _binding: FragmentLugarBinding? = null
+    private var _binding: FragmentGalleryBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,14 +22,14 @@ class LugarFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val lugarViewModel =
-            ViewModelProvider(this).get(LugarViewModel::class.java)
+        val galleryViewModel =
+            ViewModelProvider(this).get(GalleryViewModel::class.java)
 
-        _binding = FragmentLugarBinding.inflate(inflater, container, false)
+        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        lugarViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textGallery
+        galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

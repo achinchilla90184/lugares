@@ -1,4 +1,4 @@
-package com.example.lugares.ui.slideshow
+package com.example.Tarea2.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

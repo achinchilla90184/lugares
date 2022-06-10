@@ -1,9 +1,9 @@
-package com.example.lugares.data
+package com.example.Tarea2.data
 
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.lugares.model.Lugar
+import com.example.Tarea2.model.Lugar
 
 @Database(entities = [Lugar::class], version = 1, exportSchema = false)
 abstract class LugarDatabase: RoomDatabase() {

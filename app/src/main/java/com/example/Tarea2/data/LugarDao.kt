@@ -1,8 +1,8 @@
-package com.example.lugares.data
+package com.example.Tarea2.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.example.lugares.model.Lugar
+import com.example.Tarea2.model.Lugar
 
 @Dao
 interface LugarDao {

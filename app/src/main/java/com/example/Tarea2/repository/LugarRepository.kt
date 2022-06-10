@@ -1,8 +1,8 @@
-package com.example.lugares.repository
+package com.example.Tarea2.repository
 
 import androidx.lifecycle.LiveData
-import com.example.lugares.data.LugarDao
-import com.example.lugares.model.Lugar
+import com.example.Tarea2.data.LugarDao
+import com.example.Tarea2.model.Lugar
 
 class LugarRepository(private val lugarDao: LugarDao) {
     val getAllData: LiveData<List<Lugar>> = lugarDao.getAllData()

@@ -1,4 +1,4 @@
-package com.example.lugares.model
+package com.example.Tarea2.model
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

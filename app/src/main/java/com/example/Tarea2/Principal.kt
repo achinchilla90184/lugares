@@ -1,4 +1,4 @@
-package com.example.lugares
+package com.example.Tarea2
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,7 +12,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lugares.databinding.ActivityPrincipalBinding
+import com.example.Tarea2.databinding.ActivityPrincipalBinding
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
