@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun haceRegister() {
-        val email = binding.etCorreo.text.toString()
+        val email = binding.etcorreo.text.toString()
         val clave = binding.etClave.text.toString()
 
         //se hace el registro
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun haceLogin() {
-        val email = binding.etCorreo.text.toString()
+        val email = binding.etcorreo.text.toString()
         val clave = binding.etClave.text.toString()
 
         //Se hace Login
